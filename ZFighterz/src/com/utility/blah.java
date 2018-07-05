@@ -55,6 +55,20 @@ public class blah
 		driver.findElement(By.xpath("/html/body/table[1]/tbody/tr[4]/td/form/table/tbody/tr/td[2]/div/input[3]")).sendKeys("dsadsad");
 	
 		driver.quit();*/
+		
+	
 	}
+	
+	public void gets(int a)
+	{
+		
+	}
+	
+	public void gets(char a)
+	{
+		System.out.println();
+	}
+	
+	
 
 }

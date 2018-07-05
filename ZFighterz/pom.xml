@@ -25,6 +25,25 @@
 			<version>1.2.5</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>3.1.5</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.vimalselvam</groupId>
+			<artifactId>cucumber-extentsreport</artifactId>
+			<version>3.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.17</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -47,18 +66,12 @@
 				<version>2.21.0</version>
 				<configuration>
 					<suiteXmlFiles>
-					
+
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 
 						<!-- If you want to skip a test, cut it from up top and paste it in 
-							here between these arrows 
-							
-							<suiteXmlFile>LoginTest.xml</suiteXmlFile>
-							<suiteXmlFile>HeaderLinksTest.xml</suiteXmlFile>
-							<suiteXmlFile>FeaturesPicsTest.xml</suiteXmlFile>
-							<suiteXmlFile>LanguageLinksTest.xml</suiteXmlFile>
-													
-						-->
+							here between these arrows <suiteXmlFile>LoginTest.xml</suiteXmlFile> <suiteXmlFile>HeaderLinksTest.xml</suiteXmlFile> 
+							<suiteXmlFile>FeaturesPicsTest.xml</suiteXmlFile> <suiteXmlFile>LanguageLinksTest.xml</suiteXmlFile> -->
 
 					</suiteXmlFiles>
 				</configuration>
