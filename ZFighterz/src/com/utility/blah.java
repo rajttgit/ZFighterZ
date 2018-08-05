@@ -18,7 +18,14 @@ public class blah
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		driver.get("https://www.freecrm.com/features.html");
+		driver.get("http://toolsqa.wpengine.com/automation-practice-switch-windows/");
+		System.out.println(driver.getWindowHandles());
+		
+		
+		
+		
+		
+		/*driver.get("https://www.freecrm.com/features.html");
 				
 		Thread.sleep(2000);
 		
@@ -39,7 +46,7 @@ public class blah
 		Thread.sleep(2000);
 
 		driver.findElement(By.xpath("//*[@id=\"intercom-container\"]/div/div[2]/div/div/div/div/div[2]/div/div[2]/span/div/div/div[2]/div/div/div/div/button")).click();
-		
+		*/
 		
 		
 		
